@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik&display=swap');
+
+
+:root {
+    --color1: #333333;
+    --color2: #BCE853;
+    --color3: #174E70;
+}
+
+body {
+    font-family: 'Merriweather', serf;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+}
