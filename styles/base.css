@@ -129,3 +129,8 @@ a:hover {
 a:visited {
     color: #00CCCC;
 }
+
+
+#lastModified {
+    color: var(--color2)
+}
