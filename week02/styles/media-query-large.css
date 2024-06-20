@@ -1,0 +1,9 @@
+@media screen and (minw-width: 500px)
+
+header {
+    backround-color: black;
+}
+
+main {
+    grid-template-columns: 1fr 1fr;
+}
