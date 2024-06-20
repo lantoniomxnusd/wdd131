@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px);
+@media screen and (min-width: 500px) {
 
 header {
     background-color: black;
@@ -10,4 +10,5 @@ main {
 
 h1 {
     color: white;
+}
 }
