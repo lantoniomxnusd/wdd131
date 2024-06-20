@@ -1,9 +1,13 @@
-@media screen and (minw-width: 500px)
+@media screen and (minw-width: 500px);
 
 header {
-    backround-color: black;
+    background-color: black;
 }
 
 main {
     grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+    color: white;
 }
