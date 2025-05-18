@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik&display=swap');
 
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -15,16 +17,50 @@ body {
     margin: 0 auto;
     max-width: 800px;
 }
-.navigation{
-    background-color: var(--color1);
-    display: none;
 
+
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+.nav {
+    margin: 1rem auto;
+
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    background-color: var(--color1);
 }
 
 .navigation a {
+    display: none;
     color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
 }
 
+.open a {
+    display: block;
+}
+
+#menu {
+    font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: white;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -48,9 +84,12 @@ h1 {
 
 h2 {
     text-align: center;
+    padding: 2rem 0;
 }
-figure {
-    margin: 0;
+
+.album{
+        padding: 20px;
+        text-align: center;
 }
 figcaption {
     padding:10px;
