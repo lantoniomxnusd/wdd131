@@ -1,14 +1,14 @@
 @media screen and (min-width: 500px) {
 
-header {
-    background-color: black;
-}
+    header {
+        background-color: #000;
+    }
 
-main {
-    grid-template-columns: 1fr 1fr;
-}
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
 
-h1 {
-    color: white;
-}
+    h1 {    
+        color: white;
+    }
 }
