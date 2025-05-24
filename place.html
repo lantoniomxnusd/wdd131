@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="description" content="Gallery for the Temples">
+    <meta name="author" content="Luis Antonio Olivares">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik&display=swap" rel="stylesheet">
+    <script src="scripts/temples.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>Mexico</h1>
+        <div class="nav">
+            <p></p>
+        </div>
+        <!-- <div>
+        <button type="button" id="menu"></button>
+            <nav class="navigation">
+                <a href="#" target="_blank"> Home</a>
+                <a href="#" target="_blank"> Old</a>
+                <a href="#" target="_blank"> New</a>
+                <a href="#" target="_blank"> Large</a>
+                <a href="#" target="_blank"> Small</a>
+            </nav>
+        </div> -->
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                <img src="images/hero-large.webp" alt = "Guadalajara Temple" width="1500" height="750">
+            </picture>
+        </div>
+        <div class = "info" "data">
+            <h2>Data:</h2>
+            <p>Area:</p>
+            <p>Population:</p>
+            <p>Capital:</p>
+            <p>Languages:</p>
+            <p>Currency:</p>
+            <p>Time Zone:</p>
+            <p>Calling Code:</p>
+            <p>Internet TLD:</p>
+        </div>
+        <div class= "info" "weather">
+            <h2 class="weather-heading">Weather</h2>
+            <div class="weather-icon"><img src="images/weatherIcon.svg" alt="Sunny Weather Icon" width="50"></div>
+            <p>Temperature:</p>
+            <p>Wind Speed:</p>
+            <p>Humidity:</p>
+            <p>Condition:</p>
+            <p>Wind Chill:</p>
+        </div>
+    </main>
+    <footer>
+        <p> ©️ <span id="currentYear"></span> 🌴 Luis Antonio Olivares 🌴 Mexico</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
