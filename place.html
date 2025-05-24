@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik&display=swap" rel="stylesheet">
-    <script src="scripts/temples.js" defer></script>
+    <script src="scripts/place.js" defer></script>
 
 </head>
 <body>
@@ -32,32 +32,38 @@
         </div> -->
     </header>
     <main>
-        <div class="hero">
-            <picture>
-                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
-                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
-                <img src="images/hero-large.webp" alt = "Guadalajara Temple" width="1500" height="750">
-            </picture>
-        </div>
-        <div class = "info" "data">
-            <h2>Data:</h2>
-            <p>Area:</p>
-            <p>Population:</p>
-            <p>Capital:</p>
-            <p>Languages:</p>
-            <p>Currency:</p>
-            <p>Time Zone:</p>
-            <p>Calling Code:</p>
-            <p>Internet TLD:</p>
-        </div>
-        <div class= "info" "weather">
-            <h2 class="weather-heading">Weather</h2>
-            <div class="weather-icon"><img src="images/weatherIcon.svg" alt="Sunny Weather Icon" width="50"></div>
-            <p>Temperature:</p>
-            <p>Wind Speed:</p>
-            <p>Humidity:</p>
-            <p>Condition:</p>
-            <p>Wind Chill:</p>
+        <div class="hero-container">
+            <div class="hero">
+                <picture>
+                    <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                    <img src="images/hero-large.webp" alt = "Guadalajara Temple" width="1500" height="750">
+                </picture>
+            </div>
+            <div class="info-card data-card">
+                <h2>Data</h2>
+                <ul>
+                    <li><span>Area:</span></li>
+                    <li><span>Population:</span></li>
+                    <li><span>Capital:</span></li>
+                    <li><span>Languages:</span></li>
+                    <li><span>Currency:</span></li>
+                    <li><span>Time Zone:</span></li>
+                    <li><span>Calling Code:</span></li>
+                    <li><span>Internet TLD:</span></li>
+                </ul>
+            </div>
+            <div class="info-card weather-card">
+                <h2>Weather</h2>
+                <div class="weather-icon"><img src="images/weatherIcon.svg" alt="Sunny Weather Icon" width="50" height="50"></div>
+                <ul>
+                    <li><span>Temperature:</span></li>
+                    <li><span>Conditions:</span></li>
+                    <li><span>Wind:</span></li>
+                    <li><span>Wind Chill:</span></li>
+                </ul>
+            </div>
+            </div>
         </div>
     </main>
     <footer>

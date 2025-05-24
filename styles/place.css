@@ -14,27 +14,20 @@
     --text-on-accent:#212121; 
 }
 
-.nav {
-    background-color: var(--secondary);
-    padding: 0.5rem;
-}
+
 
 body {
     font-family: 'Merriweather', serif;
     margin: 0 auto;
     max-width: 1200px;
-    /* padding: .5rem; */
+}
+.nav {
+    background-color: var(--secondary);
+    padding: 0.5rem;
 }
 
-.hero {
+.hero-container{
     position: relative;
-    text-align: center;
-}
-
-.hero picture {
-    width: 100vw;
-    margin: 0 auto;
-
 }
 
 .hero img {
@@ -42,73 +35,6 @@ body {
     height: auto;
     display: block;
 
-}
-
-.hero span {
-    position: absolute;
-    bottom: 40%;
-    left: 20px;
-    width: 40%;
-    background-color: rgba(0, 150, 136, 0.5);
-    padding: 1rem;
-    text-align: center;
-    color: var(--text);
-    
-}
-
-/* #menu::before {
-	content: "☰";
-}
-
-#menu.open::before {
-	content: "❌";
-} */
-
-/* .nav {
-    margin: 1rem auto;
-
-}
-.navigation{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    list-style: none;
-    background-color: var(--primary);
-}
-
-.navigation a {
-    display: none;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-    text-decoration: none;
-}
-
-.open a {
-    display: block;
-} */
-
-/* #menu {
-    font-size: 1.5rem;
-	border: 0;
-	background: none;
-	color: white;
-	position: absolute;
-	top: 1rem;
-	right: 1rem;
-} */
-main {
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Rubik', sans-serif;
-}
-
-p {
-    font-family: 'Rubik', sans-serif;
-    padding: .2rem;
 }
 
 h1 {
@@ -119,53 +45,37 @@ h1 {
     text-align: center;
 }
 
-figure img {
-    max-width: 100%;
+.info-card {
+    width: 100%;
+    text-align: center;
+    padding: .3rem;
+}
+
+.info-card h2 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.info-card ul {
+    list-style: none;
+}
+
+.info-card li{
+    padding: 0.3rem;
 }
 
 footer {
-    padding: 10px 0;
+    padding: 2rem 0;
     background-color: var(--primary);
     color: var(--text);
     text-align: center;
 }
 
-a {
-    text-decoration: none;
+footer p {
+    font-family: 'Rubik', sans-serif;
 }
-
-a:hover {
-    color: #00CCCC;
-    text-decoration: underline;
-}
-
-a:visited {
-    color: #00CCCC;
-}
-
-
 #lastModified {
     color: var(--color2)
-}
-
-.info {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 1rem;
-    border-radius: 8px;
-    width: 100%;
-    text-align: center;
-}
-.weather {
-    font-size: 1rem;
-    text-align: center;
-}
-.info h2 {
-    text-align: center;
-    padding: 2rem 0;
-    padding: 0.5rem;
-
-}
-
-.data {
-    
 }
