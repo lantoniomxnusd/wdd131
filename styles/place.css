@@ -60,10 +60,12 @@ h1 {
 
 .info-card ul {
     list-style: none;
+    text-align: left;
 }
 
 .info-card li{
     padding: 0.3rem;
+
 }
 
 footer {
@@ -79,3 +81,11 @@ footer p {
 #lastModified {
     color: var(--color2)
 }
+
+strong {
+    margin: 3px;
+}
+
+
+
+
