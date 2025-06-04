@@ -85,7 +85,7 @@ const temples = [
   	dedicated: "2025",
   	area:43000,
   	imageUrl:
-  	"/images/vancouverCanada.webp"
+  	"images/vancouverCanada.webp"
 	},
 	{
 	templeName: "Sacramento California",
