@@ -70,16 +70,32 @@ const temples = [
     area: 116642,
     imageUrl:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
-  }
-  	// {
-	// templeName: "Temple of Heaven",
-  	// location: "China",
-  	// dedicated: "null",
-  	// area:"null",
-  	// imageUrl:
-  	// "/images/bocolodPhilipines.webp"
-	// }
-  // Add more temple objects here...
+  },
+  	{
+	templeName: "Idaho Falls Temple",
+  	location: "Idaho Falls, Idaho, United States",
+  	dedicated: "1945",
+  	area:85624,
+  	imageUrl:
+  	"/images/idahoFalls.webp"
+	},
+	{
+	templeName: "Vancouver Temple",
+  	location: "Vancouver, Washington, United States",
+  	dedicated: "2025",
+  	area:43000,
+  	imageUrl:
+  	"/images/vancouverCanada.webp"
+	},
+	{
+	templeName: "Sacramento California",
+	location: "Rancho Cordova, California, United States",
+	dedicated: "2006, September, 3",
+	area: 19500,
+	imageUrl:
+		"/images/sacramentoCalifornia.webp"
+	}
+
 ];
 
 createTempleCard(temples);
