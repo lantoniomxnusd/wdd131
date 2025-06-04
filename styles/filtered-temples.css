@@ -88,8 +88,12 @@ h2 {
 }
 
 .album{
-        padding: 20px;
-        text-align: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.album img {
+    width: 100%;
 }
 figcaption {
     padding:10px;
