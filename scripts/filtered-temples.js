@@ -77,7 +77,7 @@ const temples = [
   	dedicated: "1945",
   	area:85624,
   	imageUrl:
-  	"images/idahoFalls.webp"
+  	"images/IdahoFalls.webp"
 	},
 	{
 	templeName: "Vancouver Temple",
