@@ -77,7 +77,7 @@ const temples = [
   	dedicated: "1945",
   	area:85624,
   	imageUrl:
-  	"images/IdahoFalls.webp"
+  	"images/idahoFalls.webp"
 	},
 	{
 	templeName: "Vancouver Temple",
@@ -85,7 +85,7 @@ const temples = [
   	dedicated: "2025",
   	area:43000,
   	imageUrl:
-  	"images/VancouverCanada.webp"
+  	"/images/vancouverCanada.webp"
 	},
 	{
 	templeName: "Sacramento California",
