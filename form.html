@@ -47,15 +47,21 @@
             <label><input type="checkbox" name="process" value="yes">Performance</label>
             <label><input type="checkbox" name="client" value="yes">Design</label>
 
-            <div>Written Review</div>
-            <label><input type="text" name="writtenReview"></label>
+            <div>
+            <label for="writtenReview">Written Review:</label><br>
+            <textarea id="writtenReview" name="writtenReview" rows="5" cols="50" placeholder="Write your review here..."></textarea>
+            </div>
 
-            <div>Your Name</div>
-            <label><input type="text" name="commentName"></label>
+            <div>
+            <label for="commentName">Your Name:</label><br>
+            <input type="text" id="commentName" name="commentName" placeholder="Enter your name">
+            </div>
+
+
+            
         </fieldset>
 
             <input type="submit" value = "Post a Review">
-
         </form>
     </main>
     
