@@ -1,21 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temple Album</title>
-    <meta name="description" content="Gallery for the Temples">
-    <meta name="author" content="Luis Antonio Olivares">
-    <link rel="stylesheet" href="styles/form.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik&display=swap" rel="stylesheet">
-    <script src="scripts/getdates.js" defer></script>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
 
+<title>Product Review</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="/practice-form/css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="/practice-form/css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="/practice-form/css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="/practice-form/css/large.css" rel="stylesheet">
+
+
+     
 </head>
 <body>
-    <main>
-    <form method="get" action="review.html" class="wf1">
+<!-- HEADER HERE -->
+	<header>
+        <h1>Product Review</h1>
+    </header>
+
+<!-- CONTENT HERE -->
+<main>
+        <form method="get" action="review.html" class="wf1">
         <fieldset>
 
             <label>Product Name</label><select name="productName" id="productName" required></label>
@@ -61,9 +79,10 @@
         
     </main>
     
+<!-- FOOTER HERE -->   
     <footer>
-        <p> ©️ <span id="currentYear"></span> 🌴 Luis Antonio Olivares 🌴 Mexico</p>
-        <p id="lastModified"></p>
+        &copy; 2024 &bull; Paul Cheney &bull; 123-555-6789
     </footer>
+<script src="js/scripts.js"></script>
 </body>
 </html>
