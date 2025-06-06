@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temple Album</title>
-    <meta name="description" content="Gallery for the Temples">
+    <title>Product Review</title>
+    <meta name="description" content="Form for customers to leave a review about products">
     <meta name="author" content="Luis Antonio Olivares">
     <link rel="stylesheet" href="styles/form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,9 +15,10 @@
 </head>
 <body>
     <main>
-    <form method="get" action="review.html" class="wf1">
-        <fieldset>
+    <h1>Product Review</h1>
 
+    <form method="get" action="review.html" class="review">
+        <fieldset>
             <label>Product Name</label><select name="productName" id="productName" required></label>
             <option value="" disabled selected> Select a Product... &#9662;</option>
             <option value="software"> Software Development</option>
@@ -56,9 +57,6 @@
             <input type="submit" value = "Post a Review">
 
         </form>
-
-          
-        
     </main>
     
     <footer>
