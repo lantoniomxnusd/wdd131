@@ -50,6 +50,9 @@ main {
 }
 
 
+h1 {
+    background-color: black;
+}
 /*-----------Form Styling  --------------*/
 .wf1 fieldset{
     margin: 2rem 0;

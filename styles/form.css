@@ -1,44 +1,82 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+:root {
+    --color1: #333333;
+    --color2: #BCE853;
+    --color3: #174E70;
+}
 
 body {
     font-size: 16px;
-    font-family: Verdana, sans-serif;
+    font-family: 'Merriweather', serf;
+    margin: 0 auto;
+    max-width: 960px;
 }
 
+body {
+    font-family: 'Merriweather', serf;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+
 main {
-    padding: 0 2%;
     min-height: 20rem;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    background-color: var(--color3);
+    color: white;
+    padding: 1rem;
+
+}
+
+.wf1 {
+    background-color: #e6dcef;
+    padding: 1rem;
+    width: 100%;
+    margin: .3rem 0;
+    border-radius: 6px;
 }
 
 .wf1 fieldset{
-    margin: 2rem 0;
     border: 1px solid #ddd;
-    border-radius: 6px;
+    border-radius: 3px;
     padding: .5rem;
 
 }
 
 .wf1 label{
     display: block;
-    padding-top: 1rem;
+    padding: .3rem;
     color: #9c2c13;
-    font-size: .9rem ;
 }
 
 .wf1 div {
-    padding-top: 1rem;
-    color:#445ba9;
-    font-size: .9rem;
+  padding: 0.2rem 0;
+  margin: 0;
+  color: #445ba9;
+  font-size: 0.9rem;
+}
+
+.review {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.review label {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
 }
 
 
 .wf1 input[type="text"],
-.wf1 input[type="tel"],
-.wf1 input[type="email"],
-.wf1 input[type="url"],
 .wf1 input[type="date"],
-.wf1 select,
-.wf1 input[type="number"]{
+.wf1 select{
     background-color: #eee;
     display: block;
     border: solid 1px #999;
@@ -51,9 +89,10 @@ main {
     
 }
 
-.wf1 input[type="radio"],
-.wf1 input[type="checkbox"] {
-    margin-right: 6px;
+.wf1 label + input,
+.wf1 label + textarea,
+.wf1 label + select {
+  margin-top: 0.2rem;
 }
 
 
@@ -65,8 +104,9 @@ main {
     padding: .8rem;
     width: 96%;
     max-width: 400px;
-    margin: -1rem 2% 2rem 2%;
+    margin: 1rem;
     box-shadow: 1px 1px 4px #999;
+    font-size: 1.5rem;
 }
 
 
@@ -79,10 +119,24 @@ main {
 }
 
 
-label {
-    display: block;
-}
-
 #feedback {
     color:red;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: var(--color3);
+    color: white;
+    text-align: center;
+
+}
+
+#lastModified {
+    color: var(--color3)
+}
+
+
+span {
+    color: navy;
+    font-size: .75rem;
 }
