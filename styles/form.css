@@ -131,12 +131,10 @@ footer {
 
 }
 
-#lastModified {
-    color: var(--color3)
+#lastModified, #currentYear {
+    color: var(--color2)
 }
 
-
-span {
-    color: navy;
-    font-size: .75rem;
+.optional {
+    color:navy;
 }
