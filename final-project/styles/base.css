@@ -132,7 +132,7 @@ main {
 
 #about-me > img {
   float: left;
-  width: 150px;
+  width: 325px;
   height: auto;
   margin: 20px 15px 10px 20px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
