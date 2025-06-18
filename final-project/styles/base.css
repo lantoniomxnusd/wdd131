@@ -140,7 +140,20 @@ main h1 {
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
+.about-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
 
+.about-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.15);
+}
 #about-me p {
     text-align: left;
 }
@@ -188,6 +201,21 @@ main h1 {
   content: "📍";
   margin-right: 0.5rem;
 }
+
+.teachingstyle-image {
+  padding: 0 10px;
+  margin: 1rem 0 1rem 0;
+}
+
+.teachingstyle-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
 
 .card  {
     border: 1px solid var(--secondary-color);
