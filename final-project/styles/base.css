@@ -172,7 +172,7 @@ main h1 {
 
 .background-image {
   width: 100%;
-  padding-right: 1rem; /* this pushes the image away from the edge */
+  padding: 0 10px 0 10px; /* this pushes the image away from the edge */
 }
 
 #background p {
