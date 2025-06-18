@@ -147,7 +147,7 @@ main h1 {
 
 .background-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2.5fr;
   gap: 1.5rem;
   align-items: start;
 }
@@ -160,7 +160,7 @@ main h1 {
 
 #background .world-map {
   width: 100%;
-  max-width: 100%;
+  max-width: 600px;
   height: auto;
   border-radius: 10px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
@@ -168,11 +168,22 @@ main h1 {
 }
 
 .background-image {
+  width: 100%;
   padding-right: 1rem; /* this pushes the image away from the edge */
 }
 
 #background p {
   text-align: left;
+}
+
+#background ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#background ul li::before {
+  content: "📍";
+  margin-right: 0.5rem;
 }
 
 .card  {
