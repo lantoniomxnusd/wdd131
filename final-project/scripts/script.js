@@ -1,3 +1,14 @@
+// Hamburger toggle logic
+const myButton = document.getElementById("myButton");
+const menu = document.querySelector(".menuLinks");
+
+if (myButton && menu) {
+  myButton.addEventListener("click", () => {
+    myButton.classList.toggle("open");
+    menu.classList.toggle("open");
+  });
+}
+
 const materials = [
   {
     id: "our-world",
@@ -68,14 +79,5 @@ if (lastModifiedText) {
   lastModifiedText.textContent = `Last Modified: ${document.lastModified}`;
 }
 
-// Hamburger toggle logic
-const myButton = document.getElementById("myButton");
-const menu = document.querySelector(".menuLinks");
 
-if (myButton && menu) {
-  myButton.addEventListener("click", () => {
-    myButton.classList.toggle("open");
-    menu.classList.toggle("open");
-  });
-}
 
