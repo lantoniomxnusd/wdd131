@@ -1,4 +1,4 @@
-// Hamburger toggle logic
+
 const myButton = document.getElementById("myButton");
 const menu = document.querySelector(".menuLinks");
 
@@ -63,6 +63,7 @@ materials.forEach(material => {
     container.appendChild(section);
 
 });
+
 
 
 const greeting = document.getElementById("greeting");

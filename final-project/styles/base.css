@@ -21,14 +21,14 @@ body {
 }
 
 main h1 {
+    display: inline-block;
     width:100%;
     text-align: center;
+    border-bottom: 1px solid var(--primary-color);
 }
 
 h1, h2 {
     font-family: var(--font-heading);
-
-    /* color: var(--primary-color); */
 }
 p {
     padding: 10px;
@@ -124,14 +124,6 @@ nav .active{
 
 main {
     margin: 1rem 2vw;
-    /* max-width: 100%; */
-}
-
-main h1 {
-    display: inline-block;
-    text-align: center;
-    border-bottom: 1px solid var(--primary-color);
-
 }
 
 #about-me {
@@ -196,17 +188,13 @@ main h1 {
 
 .background-image {
   width: 100%;
-  padding: 0 10px 0 10px; /* this pushes the image away from the edge */
+  padding: 0 10px 0 10px; 
 }
 
 #background p {
   text-align: left;
 }
 
-#background ul {
-  list-style: none;
-  padding-left: 0;
-}
 
 #background ul li::before {
   content: "📍";
@@ -279,7 +267,7 @@ footer {
   width: 80%;
   margin: 1.5rem auto;
   padding: 0.75rem 1.25rem;
-  background-color: #3B5998; /* Facebook-like deep blue */
+  background-color: #3B5998; 
   color: white;
   border: 2px solid #2C3E50;
   border-radius: 8px;
@@ -351,7 +339,7 @@ footer {
 
 .material-image img {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: 1px 1px 8px rgba(0,0,0,0.15);
 }
 
@@ -402,6 +390,6 @@ footer {
   display: block;
   margin: 0 auto;
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 0;
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
 }
