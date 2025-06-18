@@ -23,21 +23,59 @@
         <button id="myButton"></button>
         <ul class = "menuLinks">
             <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="chamber/index.html">Chamber</a></li>
-            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
-            <li><a href="form.html">Form</a></li>
+            <li><a href="learning-material.html">Learning Material</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="https://lantoniomxnusd.github.io/wdd330final/">Games</a></li>
         </ul>
     </nav>
 
     <main>
-        <h1 >WDD 230: Web Frontend Development</h1>
+        <h1 id = "greeting">Welcome!</h1>
+        <section class="card" id="about-me">
+        <h2>About Me</h2>
+        <img src="images/about-me.webp" alt="Luis Antonio Olivares in nature" loading="lazy">
+        <p>Hello! My name is Luis Antonio Olivares. I currently live in Guadalajara, Mexico, where I've been for the past six years. I'm originally from the United States and grew up in the beautiful states of Idaho and Washington.</p>
+        <p>Both Idaho and Washington are rich in natural beauty—forests, lakes, rivers, and mountains. Because of that, I've always been passionate about the outdoors. I enjoy fishing, hiking, floating down rivers, camping, and just about anything that connects me to nature.</p>
+        </section>
+
+        <section class="card" id="background">
+        <h2>Background</h2>
+        <img src="images/teaching-background.webp" alt="Luis teaching or tutoring" loading="lazy">
+        <p>I originally come from a business background. However, after moving to Mexico, I found a new path—tutoring children from around the world. My students come from a wide range of cultural backgrounds, including:</p>
+        <ul>
+            <li>Japan</li>
+            <li>Mexico</li>
+            <li>South Korea</li>
+            <li>Thailand</li>
+            <li>China</li>
+            <li>France</li>
+            <li>Belgium</li>
+            <li>Turkey</li>
+        </ul>
+        <p>I learn just as much from them as they do from me, and that's what makes teaching such a rewarding experience.</p>
+        </section>
+
+        <section class="card" id="teaching-style">
+        <h2>Teaching Style</h2>
+        <p>I believe that connection and fun are essential parts of the learning process—especially for young students. When students laugh and enjoy the lesson, they are more focused, more confident, and better able to retain what they learn.</p>
+        <p>My lessons are highly personalized. I adapt my teaching materials to match each student’s interests, creating a guided learning path that keeps them engaged and motivated. It’s always a joy to see students understand and respond to questions using proper grammar.</p>
+        <p>Once they build confidence in speaking, I increase the level of fluency to help develop their listening skills as well. Ultimately, my goal is to help every student express themselves clearly and confidently in English—because that’s the reason they chose to learn the language in the first place.</p>
+        </section>
+
+        <section class="card" id="learning-material-cta">
+        <h2>Start Learning With Me</h2>
+        <p>Whether you're just beginning or want to improve your English fluency, I’ve created interactive materials designed to make learning fun, personalized, and effective. You’ll find vocabulary games, structured lessons, and tips that match your level and learning style.</p>
+        <a href="learning-material.html" class="learn-button">Explore Learning Material</a>
+        </section>
+
+        <section class="card" id="contact-cta">
+        <a href="contact.html" class="contact-button">Contact Me</a>
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 Luis Antonio Olivares | Guadalajara, Mexico 🇲🇽</p>
         <p id="lastModified"></p>
     </footer>
-    <script src="scripts/getDates.js"></script>
-    <script src="scripts/weather.js"></script>
-    <script src="scripts/links.js"></script>
+    <script src="scripts/script.js" defer></script>
 </body>
 </html>
